@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project name="Sony-Xperia-Z5/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0" />
+<project name="Sony-Xperia-Z5/android_device_sony_sumire"	path="device/sony/sumire" 	remote="github" revision="cm-13.0" />
+<project name="Sony-Xperia-Z5/android_kernel_sony_kitakami" path="kernel/sony/kitakami" remote="github" revision="cm-13.0" />
+
+</manifest>
