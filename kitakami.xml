@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="Sony-Kitakami/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0" />
-<project name="Sony-Kitakami/android_device_sony_sumire"   path="device/sony/sumire"   remote="github" revision="cm-13.0" />
-<project name="Sony-Kitakami/android_device_sony_common"   path="device/sony/common"   remote="github" revision="cm-13.0" />
-<project name="Sony-Kitakami/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-13.0" />
-<project name="Sony-Kitakami/android_kernel_sony_kitakami" path="kernel/sony/kitakami" remote="github" revision="cm-13.0" />
-<project name="Sony-Kitakami/android_vendor_sony_sumire"   path="vendor/sony/sumire"   remote="github" revision="cm-13.0" />
-<project name="Sony-Kitakami/android_vendor_qcom_prebuilt" path="vendor/qcom/prebuilt" remote="github" revision="cm-13.0" />
+<remove-project name="CyanogenMod/android_device_qcom_sepolicy" />
 
-<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
-<project name="CyanogenMod/android_external_stlport"   path="external/stlport"   remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_device_sony_sumire"   path="device/sony/sumire"   remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_device_sony_common"   path="device/sony/common"   remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_kernel_sony_kitakami" path="kernel/sony/kitakami" remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_vendor_sony_sumire"   path="vendor/sony/sumire"   remote="github" revision="cm-13.0" />
+	<project name="Sony-Kitakami/android_vendor_qcom_prebuilt" path="vendor/qcom/prebuilt" remote="github" revision="cm-13.0" />
+
+	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+	<project name="CyanogenMod/android_external_stlport"   path="external/stlport"   remote="github" revision="cm-13.0" />
 
 </manifest>
