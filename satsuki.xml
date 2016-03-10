@@ -3,9 +3,7 @@
 
 	<project name="Sony-Kitakami/android_device_sony_satsuki"   path="device/sony/satsuki"   remote="github" revision="cm-13.0" />
 	
-	<!--- 
-	*Vendor blobs will be available once my unit arrives*
-	<project name="Sony-Kitakami/android_vendor_sony_satsuki"   path="vendor/sony/satsuki"   remote="github" revision="cm-13.0" /> 
-	--->
+	<!-- *Vendor blobs unavailable at the moment* -->
+	<!-- <project name="Sony-Kitakami/android_vendor_sony_satsuki"   path="vendor/sony/satsuki"   remote="github" revision="cm-13.0" /> -->
 
 </manifest>
