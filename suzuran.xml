@@ -2,8 +2,6 @@
 <manifest>
 
 	<project name="Sony-Kitakami/android_device_sony_suzuran"   path="device/sony/suzuran"   remote="github" revision="cm-13.0" />
-	
-	<!-- *Vendor blobs unavailable at the moment* -->
-	<!-- <project name="Sony-Kitakami/android_vendor_sony_suzuran"   path="vendor/sony/suzuran"   remote="github" revision="cm-13.0" /> -->
+	<project name="Sony-Kitakami/android_vendor_sony_suzuran"   path="vendor/sony/suzuran"   remote="github" revision="cm-13.0" />
 
 </manifest>
