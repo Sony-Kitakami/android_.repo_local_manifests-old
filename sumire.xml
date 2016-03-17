@@ -3,6 +3,5 @@
 <manifest>
 
 	<project name="Sony-Kitakami/android_device_sony_sumire"   path="device/sony/sumire"   remote="github" revision="cm-13.0" />
-	<project name="Sony-Kitakami/android_vendor_sony_sumire"   path="vendor/sony/sumire"   remote="github" revision="cm-13.0" />
 
 </manifest>

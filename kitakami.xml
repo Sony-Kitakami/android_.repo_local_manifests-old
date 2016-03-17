@@ -3,7 +3,7 @@
 
 	<project name="Sony-Kitakami/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0" />
 	<project name="Sony-Kitakami/android_device_sony_common"   path="device/sony/common"   remote="github" revision="cm-13.0" />
-	<project name="Sony-Kitakami/android_vendor_sony_kitakami" path="vendor/sony/kitakami" remote="github" revision="cm-13.0" />	
+	<project name="Sony-Kitakami/android_vendor_sony"          path="vendor/sony"          remote="github" revision="cm-13.0" />	
 	<project name="Sony-Kitakami/android_vendor_qcom_prebuilt" path="vendor/qcom/prebuilt" remote="github" revision="cm-13.0" />
 
 	<project name="Sony-Kitakami/android_kernel_sony_kitakami" path="kernel/sony/kitakami/LA.BF64.1.1_rb1.27"  remote="github" revision="cm-13.0-LA.BF64.1.1_rb1.27" />
