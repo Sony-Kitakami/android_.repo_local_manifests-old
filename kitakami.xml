@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="omnirom/android_device_sony_common" />
+
 	<project name="Sony-Kitakami/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0" />
 	<project name="Sony-Kitakami/android_device_sony_common"   path="device/sony/common"   remote="github" revision="cm-13.0" />
 	<project name="Sony-Kitakami/android_vendor_sony"          path="vendor/sony"          remote="github" revision="cm-13.0" /> 
