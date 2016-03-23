@@ -9,7 +9,7 @@
 	<project name="Sony-Kitakami/android_vendor_sony"          path="vendor/sony"          remote="github" revision="cm-13.0" /> 
 	<project name="Sony-Kitakami/android_vendor_qcom_prebuilt" path="vendor/qcom/prebuilt" remote="github" revision="cm-13.0" />
 
-	<project name="Sony-Kitakami/android_kernel_sony_kitakami" path="kernel/sony/kitakami/LA.BF64.1.2.2_rb4.7" remote="github" revision="cm-13.0-LA.BF64.1.2.2_rb4.7" />
+	<project name="Sony-Kitakami/android_kernel_sony_kitakami" path="kernel/sony/kitakami" remote="github" revision="cm-13.0" />
 
         <project name="CyanogenMod/android_hardware_sony_thermanager"  path="hardware/sony/thermanager"  remote="github" revision="cm-13.0" />
 	<project name="CyanogenMod/android_hardware_sony_timekeep"     path="hardware/sony/timekeep"     remote="github" revision="cm-13.0" />
