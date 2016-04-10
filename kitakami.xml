@@ -2,7 +2,10 @@
 <manifest>
 	
     <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
+    <remove-project name="CyanogenMod/android_external_libselinux"                 />
+
     <project name="Sony-Kitakami/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
+    <project name="Sony-Kitakami/android_external_libselinux"                 path="external/libselinux"                 remote="github" revision="cm-13.0" />
 
 	<project name="Sony-Kitakami/android_device_sony_kitakami"      path="device/sony/kitakami"      remote="github" revision="cm-13.0" />
 	<project name="Sony-Kitakami/android_device_sony_common"        path="device/sony/common"        remote="github" revision="cm-13.0" />
