@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project name="Sony-Kitakami/android_device_sony_satsuki"   path="device/sony/satsuki"   remote="github" revision="cm-13.0" />
+  <project name="Sony-Kitakami/android_device_sony_satsuki" path="device/sony/satsuki" remote="github" revision="cm-13.0_aosp_09.06.2016+WIP" />
 
 </manifest>

@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
 <manifest>
 	
-    <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
+<!--  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />-->
+  <remove-project name="CyanogenMod/android_external_libnfc-nci" />
+<!--  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />-->
 
-    <project name="Sony-Kitakami/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
+<!--  <remove-project name="CyanogenMod/android_system_vold"                         />
+  
+  <project name="Sony-Kitakami/android_system_vold"                         path="system/vold"                         remote="github" revision="cm-13.0" />-->
+  
+  <project name="Sony-Kitakami/android_device_patches_sony_kitakami" path="device/patches/sony/kitakami" remote="github" revision="cm-13.0" />
 
-    <project name="Sony-Kitakami/android_device_patches_sony_kitakami" path="device/patches/sony/kitakami" remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_device_sony_kitakami"         path="device/sony/kitakami"         remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_device_sony_common"           path="device/sony/common"           remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_vendor_sony"                  path="vendor/sony"                  remote="github" revision="cm-13.0" /> 
-    <project name="Sony-Kitakami/android_vendor_qcom_prebuilt"         path="vendor/qcom/prebuilt"         remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_kernel_sony_kitakami"         path="kernel/sony/kitakami"         remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_hardware_sony_init"           path="hardware/sony/init"           remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_hardware_sony_camera"         path="hardware/sony/camera"         remote="github" revision="cm-13.0" />
-    <project name="Sony-Kitakami/android_vendor_sony_common-kernel"    path="vendor/sony/common-kernel"    remote="github" revision="cm-13.0" />
-    
-    <project name="CyanogenMod/android_hardware_sony_thermanager"  path="hardware/sony/thermanager"  remote="github" revision="cm-13.0" />
-    <project name="CyanogenMod/android_hardware_sony_timekeep"     path="hardware/sony/timekeep"     remote="github" revision="cm-13.0" />
-    <project name="CyanogenMod/android_device_qcom_common"         path="device/qcom/common"         remote="github" revision="cm-13.0" />
-    <project name="CyanogenMod/android_external_stlport"           path="external/stlport"           remote="github" revision="cm-13.0" />
-    <project name="CyanogenMod/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="cm-13.0" />
+  <project name="Sony-Kitakami/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0_aosp_09.06.2016+WIP" />
+<!--  <project name="deepongi/android_device_sony_kitakami-common" path="device/sony/kitakami-common" remote="github" revision="cm-13.0" />-->
+  <project name="SonyAosp/device-sony-common" path="device/sony/common" remote="github" revision="cm-13.0" />
+  
+  <project name="SonyAosp/vendor_sony" path="vendor/sony" remote="github" revision="mm-6.0" />
+  <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="mm-6.0" />
+  <project name="SonyAosp/vendor_google" path="vendor/google" remote="github" revision="mm-6.0" />
 
+  <project name="SonyAosp/platform_hardware_qcom_camera" path="hardware/sony/camera" remote="github" revision="cm-13.0" />
+<!--  <project name="SonyAosp/platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="mm-6.0" />-->
+<!--  <project name="SonyAosp/platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="mm-6.0" />-->
+  
+<!--  <project name="SonyAosp/platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="mm-6.0" />-->
+  
+
+
+  <project name="SonyAosp/kernel" path="kernel/sony/msm" remote="github" revision="mm-6.0" />
+
+  <project name="sonyxperiadev/thermanager" path="hardware/sony/thermanager" remote="github" revision="master" />
+  <project name="sonyxperiadev/timekeep" path="hardware/sony/timekeep" remote="github" revision="master" />
+  <project name="sonyxperiadev/macaddrsetup" path="hardware/sony/macaddrsetup" remote="github" revision="master" />
+
+  <project name="SonyAosp/vendor_qcom_opensource_dataservices" path="hardware/sony/opensource/dataservices" remote="github" revision="mm-6.0" />
+
+  <project name="SonyAosp/platform_hardware_sony_init" path="hardware/sony/init" remote="github" revision="mm-6.0" />
+
+<!--  <project name="SonyAosp/platform_vendor_qcom" path="vendor/qcom" remote="github" revision="mm-6.0" />-->
+<!--  <project name="SonyAosp/platform_vendor_sony" path="vendor/sony" remote="github" revision="mm-6.0" />-->
+  
+  <project name="SonyAosp/platform_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="mm-6.0" />
+
+<!--  <project name="SonyAosp/platform_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="mm-6.0" />-->
+<!--  <project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-6.0" />-->
 </manifest>
