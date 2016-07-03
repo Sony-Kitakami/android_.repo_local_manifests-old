@@ -3,7 +3,7 @@
 <manifest>
 	
 <!--  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />-->
-  <remove-project name="CyanogenMod/android_external_libnfc-nci" />
+<!--  <remove-project name="CyanogenMod/android_external_libnfc-nci" />-->
 <!--  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />-->
 
 <!--  <remove-project name="CyanogenMod/android_system_vold"                         />
@@ -41,7 +41,7 @@
 <!--  <project name="SonyAosp/platform_vendor_qcom" path="vendor/qcom" remote="github" revision="mm-6.0" />-->
 <!--  <project name="SonyAosp/platform_vendor_sony" path="vendor/sony" remote="github" revision="mm-6.0" />-->
   
-  <project name="SonyAosp/platform_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="mm-6.0" />
+<!--  <project name="SonyAosp/platform_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="mm-6.0" />-->
 
 <!--  <project name="SonyAosp/platform_vendor_qcom_proprietary" path="vendor/qcom/proprietary" remote="github" revision="mm-6.0" />-->
 <!--  <project name="DonkeyCoyote/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="android-6.0" />-->
