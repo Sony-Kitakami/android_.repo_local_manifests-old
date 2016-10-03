@@ -4,7 +4,7 @@
 	
 <!--  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />-->
 <!--  <remove-project name="CyanogenMod/android_external_libnfc-nci" />-->
-<!--  <remove-project name="CyanogenMod/android_hardware_qcom_keymaster" />-->
+  <remove-project name="CyanogenMod/android_packages_apps_FMRadio" />
 
 <!--  <remove-project name="CyanogenMod/android_system_vold"                         />
   
@@ -25,6 +25,7 @@
 <!--  <project name="SonyAosp/platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="mm-6.0" />-->
   
 <!--  <project name="SonyAosp/platform_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="mm-6.0" />-->
+  <project name="Sony-Kitakami/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="cm-13.0" />
   
 
 
