@@ -20,7 +20,7 @@
   <project name="SonyAosp/vendor_qcom" path="vendor/qcom" remote="github" revision="mm-6.0" />
   <project name="SonyAosp/vendor_google" path="vendor/google" remote="github" revision="mm-6.0" />
 
-  <project name="SonyAosp/platform_hardware_qcom_camera" path="hardware/sony/camera" remote="github" revision="cm-13.0" />
+  <project name="Sony-Kitakami/android_hardware_sony_camera" path="hardware/sony/camera" remote="github" revision="cm-13.0" />
 <!--  <project name="SonyAosp/platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="mm-6.0" />-->
 <!--  <project name="SonyAosp/platform_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="mm-6.0" />-->
   
