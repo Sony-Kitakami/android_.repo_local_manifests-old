@@ -12,7 +12,7 @@
   
 <!--  <project name="Sony-Kitakami/android_device_patches_sony_kitakami" path="device/patches/sony/kitakami" remote="github" revision="cm-13.0" />-->
 
-  <project name="Sony-Kitakami/android_device_sony_kitakami" path="device/sony/kitakami" remote="github" revision="cm-13.0_aosp_09.06.2016+WIP" />
+  <project name="Sony-Kitakami/android_device_sony_kitakami-old" path="device/sony/kitakami" remote="github" revision="cm-13.0+aosp_30.09.2016" />
 <!--  <project name="deepongi/android_device_sony_kitakami-common" path="device/sony/kitakami-common" remote="github" revision="cm-13.0" />-->
   <project name="SonyAosp/device-sony-common" path="device/sony/common" remote="github" revision="cm-13.0" />
   
